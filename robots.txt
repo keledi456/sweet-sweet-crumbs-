@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://keledi456.github.io/sweet-crumbs-bakery/sitemap.xml
