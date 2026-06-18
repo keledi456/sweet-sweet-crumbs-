@@ -10,7 +10,38 @@
 
 <header>
     <h1>Our Products</h1>
-</header><nav id="navMenu">
+</header><nav id="navMenu"><body>
+
+<header>
+    <h1>Our Products</h1>
+</header>
+
+<!-- SEARCH BAR -->
+<input type="text" id="search" placeholder="Search..." onkeyup="searchProducts()">
+
+<div class="container">
+
+    <h2>Our Bakery Gallery</h2>
+
+    <!-- ✅ PUT GALLERY HERE -->
+    <div class="grid">
+        <img src="images/cake.jpg" class="gallery-img">
+        <img src="images/bread.jpg" class="gallery-img">
+        <img src="images/pastry.jpg" class="gallery-img">
+    </div>
+
+</div>
+
+<!-- ✅ LIGHTBOX GOES HERE (BOTTOM OF PAGE) -->
+<div id="lightbox" class="lightbox">
+    <span onclick="closeLightbox()">&times;</span>
+    <img id="lightbox-img">
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+    
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="products.html">Products</a>
