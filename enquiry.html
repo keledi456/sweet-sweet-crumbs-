@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enquiry - Sweet Crumbs Bakery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Enquiry Form</h1>
+</header>
+
+<nav id="navMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="products.html">Products</a>
+    <a href="enquiry.html">Enquiry</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+<div class="container">
+
+    <h2>Make an Enquiry</h2>
+
+    <form name="enquiryForm" onsubmit="return validateEnquiryForm()">
+
+        <label>Name:</label>
+        <input type="text" name="name" required>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <label>Select Product:</label>
+        <select name="product">
+            <option>Chocolate Cake</option>
+            <option>Vanilla Cupcakes</option>
+            <option>Wedding Cake</option>
+            <option>Bread</option>
+        </select>
+
+        <label>Message:</label>
+        <textarea name="message" required></textarea>
+
+        <button type="submit">Submit Enquiry</button>
+
+    </form>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Sweet Crumbs Bakery</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
