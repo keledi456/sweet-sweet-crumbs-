@@ -1,261 +1,150 @@
-/* ===============================
-   RESET
-=============================== */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* ===============================
-   BODY
-=============================== */
+/* GENERAL */
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff8f5;
+    margin: 0;
+    background-color: #fff8f0;
     color: #333;
-    line-height: 1.6;
 }
 
-/* ===============================
-   HEADER
-=============================== */
+/* HEADER */
 header {
-    background: #8B4513;
+    background-color: #8b4513;
     color: white;
     text-align: center;
     padding: 15px;
 }
 
-/* ===============================
-   NAVIGATION
-=============================== */
-nav {
+/* NAVIGATION */
+nav ul {
+    list-style: none;
     display: flex;
     justify-content: center;
-    background: #d2691e;
+    gap: 20px;
+    padding: 0;
 }
 
 nav a {
     color: white;
-    padding: 14px 20px;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:hover {
-    background: #a0522d;
-    transition: 0.3s;
+    color: #ffd700;
 }
 
-/* ===============================
-   MOBILE MENU
-=============================== */
-.menu-toggle {
-    display: none;
-    font-size: 30px;
-    text-align: right;
-    padding: 10px;
-    cursor: pointer;
-}
-
-/* ===============================
-   HERO SECTION
-=============================== */
+/* HERO */
 .hero {
-    background: url('../images/cake.jpg') no-repeat center/cover;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
     text-align: center;
+    padding: 50px;
+    background-color: #ffe4c4;
 }
 
-.hero h2 {
-    background: rgba(0,0,0,0.5);
-    padding: 15px;
-    border-radius: 10px;
-}
-
-/* ===============================
-   CONTAINER
-=============================== */
-.container {
-    width: 90%;
-    margin: auto;
-    padding: 20px;
-}
-
-/* ===============================
-   PRODUCT CARDS
-=============================== */
-.card {
-    background: white;
-    padding: 15px;
-    margin: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: transform 0.3s;
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-
-/* ===============================
-   GRID LAYOUT
-=============================== */
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-   .grid img{
-      width:200px
-      border-radius:10px
-}
-
-/* ===============================
-   BUTTONS
-=============================== */
-button, .btn {
-    background: #d2691e;
+.hero button {
+    background-color: #d2691e;
     color: white;
-    padding: 10px 15px;
     border: none;
-    border-radius: 5px;
+    padding: 10px 20px;
     cursor: pointer;
 }
 
-button:hover, .btn:hover {
-    background: #8B4513;
+.hero button:hover {
+    background-color: #a0522d;
 }
 
-/* ===============================
-   FORMS
-=============================== */
-form {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-   margin:auto
-}
-
-input, textarea, select {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
+/* PRODUCTS */
+.product {
     border: 1px solid #ccc;
-}
-
-/* ===============================
-   SEARCH BAR
-=============================== */
-#search {
-    width: 90%;
-    margin: 20px auto;
-    display: block;
-    padding: 10px;
-   color:write
-   border:none
-}
-
-/* ===============================
-   GALLERY IMAGES
-=============================== */
-.gallery-img {
-    width: 30%;
     margin: 10px;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: 0.3s;
+    padding: 15px;
+    border-radius: 8px;
+    background: white;
 }
 
-.gallery-img:hover {
+/* SEARCH */
+#search {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* GALLERY */
+.gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 30%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.gallery img:hover {
     transform: scale(1.05);
 }
 
-/* ===============================
-   LIGHTBOX
-=============================== */
-.lightbox {
+/* LIGHTBOX */
+#lightbox {
     display: none;
     position: fixed;
-    z-index: 1000;
-    padding-top: 50px;
-    left: 0;
+    background: rgba(0,0,0,0.8);
     top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.9);
+    justify-content: center;
+    align-items: center;
 }
 
-.lightbox img {
-    display: block;
-    margin: auto;
+#lightbox img {
     max-width: 80%;
 }
 
-.lightbox span {
-    position: absolute;
-    top: 20px;
-    right: 40px;
-    color: white;
-    font-size: 40px;
-    cursor: pointer;
+/* FORMS */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
 }
 
-/* ===============================
-   FOOTER
-=============================== */
+input, textarea {
+    margin: 5px;
+    padding: 10px;
+}
+
+/* BUTTON */
+button {
+    background: #d2691e;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+/* FOOTER */
 footer {
-    text-align: center;
-    padding: 15px;
-    background: #8B4513;
+    background: #8b4513;
     color: white;
-    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
 }
 
-/* ===============================
-   ANIMATIONS
-=============================== */
-.card {
-    animation: fadeIn 1s ease-in;
-}
-
-@keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
-/* ===============================
-   RESPONSIVE DESIGN
-=============================== */
+/* RESPONSIVE */
 @media (max-width: 768px) {
-
-    nav {
-        display: none;
+    nav ul {
         flex-direction: column;
     }
 
-    nav.active {
-        display: flex;
-    }
-
-    .menu-toggle {
-        display: block;
-    }
-
-    .grid {
+    .gallery {
         flex-direction: column;
     }
 
-    .gallery-img {
-        width: 100%;
-    }
-
-    .hero {
-        height: 200px;
+    .gallery img {
+        width: 90%;
     }
 }
+
