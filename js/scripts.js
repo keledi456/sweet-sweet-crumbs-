@@ -33,24 +33,26 @@ function validateContactForm() {
 // ===============================
 // 🧁 ENQUIRY FORM VALIDATION
 // ===============================
-function validateEnquiryForm() {
-    let name = document.forms["enquiryForm"]["name"].value;
-    let email = document.forms["enquiryForm"]["email"].value;
 
-    if (name === "" || email === "") {
-        alert("Please complete all required fields.");
-        return false;
-    }
+// Enquiry form
+document.getElementById("enquiryForm")?.addEventListener("submit", function(e) {
+e.preventDefault();
+document.getElementById("response").innerText = "Enquiry submitted successfully!";
+});
 
-    if (!email.includes("@")) {
-        alert("Invalid email address.");
-        return false;
-    }
+// Search function
+const search = document.getElementById("search");
 
-    alert("Enquiry submitted successfully!");
-    return true;
+if (search) {
+search.addEventListener("keyup", function() {
+let filter = search.value.toLowerCase();
+let items = document.querySelectorAll("#productList li");
+
+items.forEach(item => {
+item.style.display = item.textContent.toLowerCase().includes(filter) ? "" : "none";
+});
+});
 }
-
 
 // ===============================
 // 🔍 PRODUCT SEARCH FUNCTION
