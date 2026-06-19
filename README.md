@@ -10,7 +10,7 @@ Course: WEDE 5020 PART 3
 ---
 
 ## 🌐 Project Overview
-The Sweet Crumbs Bakery website is a responsive website developed using HTML and CSS. The website provides information about the bakery, its products, and allows users to make enquiries and contact the business.
+The Sweet Crumbs Bakery website is a responsive website developed using HTML and CSS,javaScript and SEO implementation.. The website provides information about the bakery, its products, and allows users to make enquiries and contact the business.
 
 ---
 
@@ -21,15 +21,62 @@ The Sweet Crumbs Bakery website is a responsive website developed using HTML and
 - To allow customers to send enquiries  
 Apply modedern web desig and development practices.SS
 
+##### ✨ Key Features Part 1
+- Created HTML structure  
+- Added content and navigation  
 ---
 
-## ✨ Key Features
+Part 2.visual Design(css and responsive design.
 - External CSS styling  
 - Responsive design using media queries  
 - Flexbox layout structure  
 - Navigation menu across all pages  
-- Enquiry and contact forms  
+- Enquiry and contact forms
+- image styling 
 
+
+ Part 3: Functionality & SEO
+🔹 Interactive Elements
+Navigation menu
+Buttons and hover effects
+🔹 Dynamic Content & Search
+Product search functionality using JavaScript
+🔹 Gallery (Lightbox Ready)
+Image gallery displaying bakery items
+🔹 Forms
+Enquiry form (user input)
+Contact form (user message submission)
+🔹 Form Validation
+HTML5 validation (required fields, email format)
+JavaScript feedback messages
+
+🔍 SEO Implementation
+Meta title and description added
+Proper heading structure (H1, H2)
+Image alt attributes
+Clean file naming
+robots.txt file included
+sitemap.xml created
+
+📁 Project Structure
+Sweet-Crumbs/
+│── index.html
+│── about.html
+│── products.html
+│── enquiry.html
+│── contact.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+├── images/
+│
+├── sitemap.xml
+├── robots.txt
+└── README.md
 ---
 
 ## 🗂️ Sitemap
@@ -73,14 +120,22 @@ The website was tested using Chrome Developer Tools across different screen size
 - Created HTML structure  
 - Added content and navigation  
 
-### Part 2
+### Part 2 updates
 - Added CSS styling  
 - Implemented Flexbox layout  
 - Added responsive design  
 - Fixed issues from Part 1 feedback  
-- Added screenshots  
+- Added screenshots
+s
+- ### Part 3 updates
+-Added JavaScript functionality
+-Implemented search feature
+-Created enquiry and contact forms
+-Added SEO elements (meta tags, sitemap, robots.txt)
 
----
+🚀 Deployment
+
+The website is deployed using GitHub Pages.
 
 ## 🛠️ Tools Used
 - Visual Studio Code  
