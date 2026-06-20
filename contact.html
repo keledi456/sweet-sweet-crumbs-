@@ -15,6 +15,127 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
 <body>
+    <!-- Main content area -->
+    <main>
+        <!-- Contact us page heading -->
+        <section class="contact-heading">
+            <h1>Contact Us</h1>
+        </section>
+
+        <!-- Contact form & map section -->
+        <section class="contact-content">
+            <div class="contact-layout">
+
+                <!-- Contact form on the left -->
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Name and Surname:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="082 123 4567" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject:</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Please select a subject</option>
+                                <option value="general">General Enquiry</option>
+                                <option value="availability">Pizza Availability</option>
+                                <option value="prices">Prices & Deals</option>
+                                <option value="delivery">Delivery</option>
+                                <option value="catering">Catering & Events</option>
+                                <option value="special-orders">Special Orders</option>
+                                <option value="complaint">Complaint</option>
+                                <option value="compliment">Compliment</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Please tell us how we can help you..."></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+
+                    <!-- Contact information -->
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p><strong>Phone:</strong> 016 362 2502</p>
+                        <p><strong>Email:</strong> campanellapizzameyerton@outlook.co.za</p>
+                    </div>
+                </div>
+
+                <!-- Map and address on the right -->
+                <div class="location-section">
+                    <!-- Google Maps embed -->
+                    <div class="location-map">
+                        <h2>Find Us</h2>
+                        <div class="map-container">
+                            <div id="leaflet-map" style="inline-size:100%; block-size:300px; border-radius:8px; overflow:hidden;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Pizza place address -->
+                    <div class="restaurant-address">
+                        <h3>Our Address</h3>
+                        <p>19 Loch Street<br>
+                        Meyerton, Gauteng<br>
+                        South Africa</p>
+                        <div class="opening-hours">
+                            <h3>Opening Hours</h3>
+                            <p>Mon – Thu: 10:00 – 21:00</p>
+                            <p>Fri – Sat: 10:00 – 22:00</p>
+                            <p>Sun: 11:00 – 20:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="footer-bottom">
+            <p>&copy; 2025 Campanella Pizza. All Rights Reserved.</p>
+
+            <!-- Payment methods -->
+            <div class="payment-methods-footer">
+                <span class="payment-label">We Accept:</span>
+                <div class="payment-icons">
+                    <svg class="payment-icon" role="img" aria-label="Visa" title="Visa" viewBox="0 0 64 40" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="64" height="40" rx="6" fill="#1A1F71"/>
+                        <text x="50%" y="58%" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#FFFFFF">VISA</text>
+                    </svg>
+                    <svg class="payment-icon" role="img" aria-label="Mastercard" title="Mastercard" viewBox="0 0 64 40" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="64" height="40" rx="6" fill="#000000"/>
+                        <g transform="translate(14,8)">
+                            <circle cx="12" cy="12" r="12" fill="#EB001B"/>
+                            <circle cx="28" cy="12" r="12" fill="#F79E1B"/>
+                            <path d="M20 0a12 12 0 0 0 0 24a12 12 0 0 0 0-24z" fill="#FF5F00"/>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
     <script src="js/scripts.js"></script>
 
 
