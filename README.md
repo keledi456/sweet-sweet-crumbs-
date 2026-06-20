@@ -1,4 +1,4 @@
-# sweet-sweet-crumbs-
+<img width="1790" height="3195" alt="TABLET" src="https://github.com/user-attachments/assets/461c4e09-0d67-46f5-9c5d-0f5dad939c5c" /># sweet-sweet-crumbs-
 
 ## 📌 Student Information
 Name: Dikeledi Molokomme
@@ -233,9 +233,12 @@ v2.6 – 20 june 2026: Fixed sitemap.xml with missing 404.html and updated dates
 Responsiveness Testing and Iteration Across Devices
 These screenshots show how the site responds on common devices after iterative testing and adjustments
 
-Mobile<img width="1790" height="3195" alt="TABLET" src="https://github.com/user-attachments/assets/7e0e709d-2675-4eb2-9a10-62d1b570b7a3" />
-
-
+Mobile
+<img width="1782" height="1462" alt="MOBILE" src="https://github.com/user-attachments/assets/fe5bf6a8-c997-4cb1-8389-3c691108536b" />
+Tablet
+<img width="1790" height="3195" alt="TABLET" src="https://github.com/user-attachments/assets/9925a4b2-383c-4dd9-b9c1-b624995a58e2" />
+Desktop
+<img width="1790" height="3195" alt="TABLET" src="https://github.com/user-attachments/assets/1544ce01-f6fb-4449-9985-073c261e98af" />
 
 🚀 Deployment link
 ##The website is deployed using GitHub Page.
