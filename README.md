@@ -8,7 +8,7 @@ Student Number: st10471875
 Course: WEDE 5020 PART 3
 
 ## 🌐 Project Overview
-The Sweet Crumbs Bakery website is a responsive website developed using HTML and CSS,javaScript and SEO implementation.. The website provides information about the bakery, its products, and allows users to make enquiries and contact the business.
+The Sweet-Sweet Crumbs Bakery website is a responsive website developed using HTML and CSS,javaScript and SEO implementation.The website provides information about the bakery, its products, and allows users to make enquiries and contact the business.
 
 ---
 
@@ -17,7 +17,7 @@ The Sweet Crumbs Bakery website is a responsive website developed using HTML and
 - To provide users with easy navigation and access to information  
 - To create a responsive website for all devices  
 - To allow customers to send enquiries  
-Apply modedern web desig and development practices.SS
+Apply modedern web design and development practices.SS
 
 ##### ✨ Key Features 
 Part 1
