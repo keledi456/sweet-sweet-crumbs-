@@ -143,4 +143,8 @@ The website is deployed using GitHub Pages.
 
 ## 📚 References
 - W3Schools. (2026). https://www.w3schools.com  
-- MDN Web Docs. (2026). https://developer.mozilla.org  
+- Mozilla Developer Network (MDN). (2026). Web Development Documentation. Available at: https://developer.mozilla.org (Accessed: 2026).
+
+-Google Developers. (2026). Search Engine Optimization (SEO) Starter Guide. Available at: https://developers.google.com/search/docs (Accessed: 2026).
+
+-GitHub. (2026). GitHub Pages Documentation. Available at: https://docs.github.com (Accessed: 2026).
