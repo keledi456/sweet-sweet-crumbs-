@@ -1,6 +1,3 @@
-<img width="1790" height="3195" alt="TABLET" src="https://github.com/user-attachments/assets/461c4e09-0d67-46f5-9c5d-0f5dad939c5c" /># sweet-sweet-crumbs-
-
-## 📌 Student Information
 Name: Dikeledi Molokomme
 Student Number: st10471875  
 Course: WEDE 5020 PART 3
