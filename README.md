@@ -1,23 +1,21 @@
 # sweet-sweet-crumbs-
 
-
-
 ## 📌 Student Information
 Name: Dikeledi Molokomme
 Student Number: st10471875  
 Course: WEDE 5020 PART 3
 
 ## 🌐 Project Overview
-The Sweet-Sweet Crumbs Bakery website is a responsive website developed using HTML and CSS,javaScript and SEO implementation.The website provides information about the bakery, its products, and allows users to make enquiries and contact the business.
-
----
+Sweet Crumbs Bakery is a project involves small local bakery based in Johannesburg, Gauteng. The bakery will specialise in freshly baked goods such as bread, cakes, pastries, cupcakes, and custom-made celebration cakes. The aim is to provide high-quality, affordable, and freshly made baked products to the local community.
+Business Overview
+Sweet Crumbs Bakery will operate as a small to medium-sized retail bakery with both walk-in and pre-order services. Customers will be able to purchase daily baked goods or place special orders for events such as birthdays, weddings, and corporate functions.The website serves as the digital presence for the local business.This is a responsive website developed using HTML and CSS,javaScript and SEO implementation.The sweet-sweet crumbs wedsite development project spans from 10 weeks from 11 may 2026 to 19 september 2026.The website showcases sweet-sweet crumbs commitment to delivering authntic,high-quality crumbs made with locally sourced intredients,while providing exceptional service in a warm and welcoming environment.The digital platform reflects the bakery mission to become Pretoria,s most loved local crumbs though excellence in food and service.
 
 ## 🎯 Website Goals and Objectives
 - To promote Sweet Crumbs Bakery products and services  
 - To provide users with easy navigation and access to information  
 - To create a responsive website for all devices  
 - To allow customers to send enquiries  
-Apply modedern web design and development practices.SS
+Apply modedern web design and development practices.
 
 ##### ✨ Key Features 
 Part 1
