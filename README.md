@@ -19,7 +19,8 @@ The Sweet Crumbs Bakery website is a responsive website developed using HTML and
 - To allow customers to send enquiries  
 Apply modedern web desig and development practices.SS
 
-##### ✨ Key Features Part 1
+##### ✨ Key Features 
+Part 1
 - Created HTML structure  
 - Added content and navigation  
 ---
@@ -52,7 +53,8 @@ The website was tested using Chrome Developer Tools across different screen size
 
 --
 
-## Part 2.visual Design(css and responsive design.
+## Part 2.
+visual Design(css and responsive design.
 - External CSS styling  
 - Responsive design using media queries  
 - Flexbox layout structure  
@@ -61,7 +63,8 @@ The website was tested using Chrome Developer Tools across different screen size
 - image styling 
 
 
- Part 3: Functionality & SEO
+ Part 3: 
+Functionality & SEO
 🔹 Interactive Elements
 Navigation menu
 Buttons and hover effects
@@ -126,22 +129,35 @@ Sweet-Crumbs/
 - Added screenshots
 s
 - ### Part 3 updates
+-added css styling
+-reponsive design
 -Added JavaScript functionality
 -Implemented search feature
 -Created enquiry and contact forms
 -Added SEO elements (meta tags, sitemap, robots.txt)
 
-🚀 Deployment
+🚀 Deployment link
 
-The website is deployed using GitHub Pages.
+##The website is deployed using GitHub Page.
 
-## 🛠️ Tools Used
+-hhtps://keledi456.github.oi/sweet-sweet-crumbs
 - Visual Studio Code  
 - Google Chrome Developer Tools  
 
----
+-##Feature Implemented 
+
+-Interactive ELements(JavaScript)
+-Image Gallery with lightbox
+-Dynamic Search function 
+-SEO (Meta Tags,Sitemap,Robots,txt)
+-Form Validation 
+
+##Screenshots
+-Desktop, Tablet and mobile views tested using browser developer tools.
+
 
 ## 📚 References
+
 - W3Schools. (2026). https://www.w3schools.com  
 - Mozilla Developer Network (MDN). (2026). Web Development Documentation. Available at: https://developer.mozilla.org (Accessed: 2026).
 
