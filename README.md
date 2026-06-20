@@ -68,7 +68,7 @@ User Experience Optimisation: The design prioritises simplicity and efficiency, 
 Technical Implementation
 Through the use of GitHub and VS Code, the website utilises modern web technologies, including HTML5 for semantic structure, CSS for visual styling and responsive design, and JavaScript for interactive functionality. The responsive framework ensures compatibility across all devices and screen sizes.
 
-Hosting is provided through Afrihost with the domain www.campanellapizza.co.za, ensuring reliable South African-based service. The technical architecture supports future scalability and maintenance requirements.
+Hosting is provided through Afrihost with the domain www.sweetcrumbs.gmail.com, ensuring reliable South African-based service. The technical architecture supports future scalability and maintenance requirements.
 
 Content Strategy
 All website content has been developed through primary research, including direct interviews with bakery owners and staff. Visual elements utilise legally sourced stock photography , professional typography from Google Fonts, and carefully selected colour schemes from ColorHunt.
