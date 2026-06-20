@@ -243,4 +243,9 @@ Mobile
 - W3Schools. (2026). https://www.w3schools.com  
 - Mozilla Developer Network (MDN). (2026). Web Development Documentation. Available at: https://developer.mozilla.org (Accessed: 2026).
 -Google Developers. (2026). Search Engine Optimization (SEO) Starter Guide. Available at: https://developers.google.com/search/docs (Accessed: 2026).
--GitHub. (2026). GitHub Pages Documentation. Available at: https://docs.github.com (Accessed: 2026).
+-GitHub. (2026). GitHub Pages Documentation. Available at: https://docs.github.com (Accessed: 2026). 
+-FreePik, n.d. Images. [Online]. Available at: https://www.freepik.com. [Accessed on 28 July 2025].
+-Google Developers, n.d. Lazy‑loading images and video. [Online]. Available at: https://web.dev/articles/lazy-loading-images. [Accessed on 30 October 2025].
+Google Font, n.d. Free Fonts Library. [Online]. Available at: https://fonts.google.com. [Accessed on 28 July 2025].
+Leaflet, n.d. Leaflet — an open‑source JavaScript library for mobile‑friendly interactive maps. [Online]. Available at: https://leafletjs.com. [Accessed on 30 October 2025].
+OpenStreetMap Contributors, n.d. OpenStreetMap Tiles. [Online]. Available at: https://www.openstreetmap.org/copyright. [Accessed on 30 October 2025].
