@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (images.length > 0) {
         images.forEach(img => {
             img.addEventListener("click", () => {
-                lightbox.style.display = "block";
+                lightbox.style.display = "flex";
                 lightboxImg.src = img.src;
             });
         });
