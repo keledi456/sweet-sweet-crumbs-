@@ -232,7 +232,10 @@ v2.6 – 20 june 2026: Fixed sitemap.xml with missing 404.html and updated dates
 
 Responsiveness Testing and Iteration Across Devices
 These screenshots show how the site responds on common devices after iterative testing and adjustments
-Mobile
+
+Mobile<img width="1790" height="3195" alt="TABLET" src="https://github.com/user-attachments/assets/7e0e709d-2675-4eb2-9a10-62d1b570b7a3" />
+
+
 
 🚀 Deployment link
 ##The website is deployed using GitHub Page.
