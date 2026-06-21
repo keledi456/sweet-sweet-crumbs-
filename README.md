@@ -43,11 +43,11 @@ Homepage (index.html): Acts as the digital storefront featuring hero imagery wit
 
 About Us (about.html): Tells the bakery's story, including the business history since 2025, mission and vision statements, information about sweet-sweet crumbs preparation methods and photographs of the bakery and staff.
 
-Menu (menu.html): Provides comprehensive product information organised into sweet-sweet-crumbs ( options), detailed descriptions with pricing, current special deals, and allergen information where applicable.
+enquiry (enquiry.html): Provides comprehensive product information organised into sweet-sweet-crumbs ( options), detailed descriptions with pricing, current special deals, and allergen information where applicable.
 
 Contact (contact.html): Offers multiple communication channels, including a contact form for general enquiries, complete bakery address, phone number and email address, embedded Google Maps showing precise location, and detailed business operating hours.
 
-Online Ordering (order.html): Enables direct customer transactions through menu selection interface, shopping cart functionality, and a customer details collection system.
+Online products (products.html): Enables direct customer transactions through menu selection interface, shopping cart functionality, and a customer details collection system.
 
 Promotions Page: Dedicated space for highlighting current specials, seasonal offers, and special events to drive customer engagement and sales.
 
