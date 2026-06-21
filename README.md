@@ -3,7 +3,7 @@ Student Number: st10471875
 Course: WEDE 5020 PART 3
 
 ## 🌐 Project Overview
-Sweet Crumbs Bakery is a project involves small local bakery based in Johannesburg, Gauteng. The bakery will specialise in freshly baked goods such as bread, cakes, pastries, cupcakes, and custom-made celebration cakes. The aim is to provide high-quality, affordable, and freshly made baked products to the local community.
+Sweet Crumbs Bakery is a project involves small local bakery based in Johannesburg, Gauteng. The bakery will specialise in freshly baked goods such as bread, cakes, pastries, cupcakes, and custom-made celebration crumbs. The aim is to provide high-quality, affordable, and freshly made baked products to the local community.
 
 Sweet Crumbs Bakery will operate as a small to medium-sized retail bakery with both walk-in and pre-order services. Customers will be able to purchase daily baked goods or place special orders for events such as birthdays, weddings, and corporate functions.The website serves as the digital presence for the local business.This is a responsive website developed using HTML and CSS,javaScript and SEO implementation.The sweet-sweet crumbs wedsite development project spans from 10 weeks from 25 may 2026 to 19 june 2026.The website showcases sweet-sweet crumbs commitment to delivering authntic,high-quality crumbs made with locally sourced intredients,while providing exceptional service in a warm and welcoming environment.The digital platform reflects the bakery mission to become Pretoria,s most loved local crumbs though excellence in food and service.
 
@@ -209,13 +209,13 @@ v1.7 – 17 june 2026: Added sitemap.xml; completed code validation ahead of sub
 
 v1.8 – 18 june 2026: Corrected image file naming (removed duplicate extension from owners.jpg.jpg); improved semantic HTML; updated README content
 
-v1.9 – 18 june 2026: Added "Responsiveness Testing and Iteration Across Devices" to README; uploaded device screenshots (iPhone, iPad Pro, MacBook Pro, iMac) under images/responsiveness/; grouped screenshots by Mobile, Tablet, Desktop; standardised .jpg extensions; ignored .DS_Store
+v1.9 – 18 june 2026: Added "Responsiveness Testing and Iteration Across Devices" to README; uploaded device screenshots (under images/responsiveness/; grouped screenshots by Mobile, Tablet, Desktop; standardised .jpg extensions; ignored .DS_Store
 
 v2.0 – 18 june 2026: Updated changelog naming in README; general copy polish
 
 Phase 3 Versions:
 
-v2.1 – 19 june 2026: Initial JavaScript implementation; added shopping cart functionality with local storage; implemented dynamic menu loading from JSON data; created pizza size selection modal with dynamic pricing
+v2.1 – 19 june 2026: Initial JavaScript implementation; added shopping cart functionality with local storage; implemented dynamic menu loading from JSON data; created cake size selection modal with dynamic pricing
 
 v2.2 – 19 june 2026: Enhanced interactivity with accessible menu tabs; implemented debounced search functionality with ARIA live regions; upgraded gallery lightbox with keyboard navigation (arrows, ESC) and swipe support; added category accordions
 
