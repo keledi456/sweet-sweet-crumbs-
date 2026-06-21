@@ -231,8 +231,10 @@ These screenshots show how the site responds on common devices after iterative t
 
 Mobile
 <img width="1567" height="1295" alt="mobile" src="https://github.com/user-attachments/assets/764959f4-55c4-4efe-a268-505cdfb4309a" />
+
 Tablet
 <img width="1620" height="2977" alt="tablet (2)" src="https://github.com/user-attachments/assets/cf950c04-32fb-4feb-ba61-709511c76650" />
+
 Desktop
 <img width="3190" height="1785" alt="desktop - Copy" src="https://github.com/user-attachments/assets/a3215407-1471-40f6-b2d9-dd72c79e88d8" />
 
