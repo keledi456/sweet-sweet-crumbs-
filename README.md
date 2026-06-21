@@ -1,4 +1,4 @@
-Name: Dikeledi Molokomme
+<img width="1567" height="1295" alt="mobile" src="https://github.com/user-attachments/assets/cde2aae7-caab-4ebf-b4fd-4694b89b9056" />Name: Dikeledi Molokomme
 Student Number: st10471875  
 Course: WEDE 5020 PART 3
 
@@ -229,13 +229,12 @@ v2.6 – 20 june 2026: Fixed sitemap.xml with missing 404.html and updated dates
 
 Responsiveness Testing and Iteration Across Devices
 These screenshots show how the site responds on common devices after iterative testing and adjustments
-
 Mobile
-<img width="1782" height="1462" alt="MOBILE" src="https://github.com/user-attachments/assets/fe5bf6a8-c997-4cb1-8389-3c691108536b" />
+<img width="1567" height="1295" alt="mobile" src="https://github.com/user-attachments/assets/764959f4-55c4-4efe-a268-505cdfb4309a" />
 Tablet
-<img width="1790" height="3195" alt="TABLET" src="https://github.com/user-attachments/assets/9925a4b2-383c-4dd9-b9c1-b624995a58e2" />
+<img width="1620" height="2977" alt="tablet (2)" src="https://github.com/user-attachments/assets/cf950c04-32fb-4feb-ba61-709511c76650" />
 Desktop
-<img width="1790" height="3195" alt="TABLET" src="https://github.com/user-attachments/assets/1544ce01-f6fb-4449-9985-073c261e98af" />
+<img width="3190" height="1785" alt="desktop" src="https://github.com/user-attachments/assets/585073ad-9bae-4e2b-b96c-dc7b61eb888a" />
 
 🚀 Deployment link
 ##The website is deployed using GitHub Page.
