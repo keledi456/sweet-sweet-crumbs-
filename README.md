@@ -1,4 +1,3 @@
-<img width="1567" height="1295" alt="mobile" src="https://github.com/user-attachments/assets/cde2aae7-caab-4ebf-b4fd-4694b89b9056" />Name: Dikeledi Molokomme
 Student Number: st10471875  
 Course: WEDE 5020 PART 3
 
@@ -229,6 +228,7 @@ v2.6 – 20 june 2026: Fixed sitemap.xml with missing 404.html and updated dates
 
 Responsiveness Testing and Iteration Across Devices
 These screenshots show how the site responds on common devices after iterative testing and adjustments
+
 Mobile
 <img width="1567" height="1295" alt="mobile" src="https://github.com/user-attachments/assets/764959f4-55c4-4efe-a268-505cdfb4309a" />
 Tablet
