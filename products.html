@@ -1,59 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Products</title>
+    <title>sweet crumbs Bakery</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <script src="js/scripts.js"></script>
-
-<header>
-    <h1>Our Products</h1>
-</header><nav id="navMenu"><body>
-
+<meta name="keywords" content="bakery, cakes, bread, pastries, Sweet Crumbs">
 <header>
     <h1>Our Products</h1>
 </header>
 
-<!-- SEARCH BAR -->
-<input type="text" id="search" placeholder="Search..." onkeyup="searchProducts()">
+<div class="menu-toggle" onclick="toggleMenu()">☰</div>
 
-<div class="container">
-
-    <h2>Our Bakery Gallery</h2>
-
-    <!-- ✅ PUT GALLERY HERE -->
-    <div class="grid">
-        <img src="images/cake.jpg" class="gallery-img">
-        <img src="images/bread.jpg" class="gallery-img">
-        <img src="images/pastry.jpg" class="gallery-img">
-    </div>
-
-</div>
-
-<!-- ✅ LIGHTBOX GOES HERE (BOTTOM OF PAGE) -->
-<div id="lightbox" class="lightbox">
-    <span onclick="closeLightbox()">&times;</span>
-    <img id="lightbox-img">
-</div>
-
-<script src="js/script.js"></script>
-
-</body>
-    
+<nav id="navMenu">
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="products.html">Products</a>
     <a href="enquiry.html">Enquiry</a>
     <a href="contact.html">Contact</a>
-
+</nav>
 
 <input type="text" id="search" placeholder="Search..." onkeyup="searchProducts()">
 
-<div class="container">
-
-    <div class="card"><div class="card">
+<div class="container"><div class="card">
     <img src="images/cake.jpg" alt="Cake" width="100%">
     <h3>Chocolate Cake</h3>
     <p>Delicious chocolate cake</p>
@@ -68,10 +38,27 @@
     <img src="images/pastry.jpg" alt="Pastry" width="100%">
     <h3>Pastries</h3>
 </div>
-        
-      
-    
-    
+
+
+    <div class="grid">
+        <img src="images/cake.jpg" class="gallery-img">
+        <img src="images/bread.jpg" class="gallery-img">
+        <img src="images/pastry.jpg" class="gallery-img">
+    </div>
+
+</div>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox">
+    <span onclick="closeLightbox()">&times;</span>
+    <img id="lightbox-img">
+</div>
+
+<footer>
+    <p>&copy; 2026 Sweet Crumbs Bakery</p>
+</footer>
+
 <script src="js/script.js"></script>
+
 </body>
 </html>
