@@ -1,55 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Contact Us</sweet-sweet crumbs>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sweet Crumbs Bakery</title>
+
+    <!-- Link to CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<header>
-    <h1>Contact Us</h1>
-</header>
+    <!-- Header -->
+    <header>
+        <h1>Sweet Crumbs Bakery</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+☰
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
 
-<div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <p>Email: info@sweetcrumbs.co.za</p>
+        <p>Phone: 012 345 6789</p>
+        <p>Location: Pretoria, South Africa</p>
 
-<nav id="navMenu">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="products.html">Products</a>
-    <a href="enquiry.html">Enquiry</a>
-    <a href="contact.html">Contact</a>
-</nav>
+        <!-- Simple Contact Form -->
+        <form>
+            <label>Name:</label><br>
+            <input type="text" name="name" required><br><br>
 
-<div class="container">
+            <label>Email:</label><br>
+            <input type="email" name="email" required><br><br>
 
+            <label>Message:</label><br>
+            <textarea name="message" rows="5" required></textarea><br><br>
 
-    <label>Name:</label>
-    <input type="text" name="name">
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+<!-- Google Map -->
+    <h2>Our Location</h2>
+    <iframe src="https://www.google.com/maps?q=Johannesburg&output=embed"
+    width="100%" height="300"></iframe>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Sweet Crumbs Bakery</p>
+    </footer>
 
-    <label>Email:</label>
-    <input type="text" name="email">
-
-    <label>Message:</label>
-    <textarea name="message"></textarea>
-
-    <button type="submit">Send</button>
-
-</form>
-
-<h3>Our Locations</h3>
-<p>Pretoria Branch</p>
-<p>Johannesburg Branch</p>
-<p>Email:sweetcrumbs@gmail.com</p>
-<p>Phone:012 9873241/0719632235</p>
-
-</div>
-
-<footer>
-    <p>&copy; 2026 Sweet Crumbs Bakery</p>
-</footer>
-
-<script src="js/script.js"></script>
-
-</body>ss
+</body>
 </html>
