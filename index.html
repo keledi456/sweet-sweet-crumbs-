@@ -1,22 +1,30 @@
 <!DOCTYPE html>
-<html lang=en">
+<html lang="en">
 <head>
-<meta charset=UTF-8">
-<meta name="vewport"content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sweet-sweet Crumbs Bakery - Fresh cakes and pastries">
-    <title>Sweet-sweet Crumbs Bakery</title>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Crumbs Bakery</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- SEO -->
+    <meta name="description" content="Sweet Crumbs Bakery offers fresh cakes, bread, and pastries.">
+    <meta name="keywords" content="bakery, cakes, pastries, bread">
+    <meta name="author" content="Your Name">
 </head>
 
 <body>
-    <script src="js/scripts.js"></script>
 
+<!-- HEADER -->
 <header>
-    <h1>Sweet-sweet Crumbs Bakery</h1>
+    <h1>Sweet Crumbs Bakery</h1>
 </header>
 
+<div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
 <nav id="navMenu">
+    <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="products.html">Products</a>
@@ -24,30 +32,48 @@
     <a href="contact.html">Contact</a>
 </nav>
 
-<div class="menu-toggle" onclick="toggleMenu()">☰</div>
-
-<section class="hero">
-    <h2>Fresh Cakes & Pastries Daily 🍰</h2>
+<!-- HERO SECTION -->
+<section class="hero">🍰
+    <h2>Welcome to Sweet Crumbs </h2>
 </section>
+    <h2>Freshly Baked Happiness Every Day</h2>
+    <p>
+        At Sweet Crumbs Bakery, we specialise in freshly baked cakes, pastries, and bread made with love.
+        Whether you need a custom cake or a quick treat, we have something for everyone.
+    </p>
 
-<div class="container">
-    <h2>Welcome</h2>
-    <p>We bake delicious cakes and pastries for every occasion.</p>
-</div>section>
-    
-    <section class="gallery">
-<div class="grid">
-<img src="images/cake.jpg" alt="Cake">
-<img src="images/cupcake.jpg" alt="Cupcake">
-<img src="images/bread.jpg" alt="Bread">
-</div>
-</section>
-    
+    <!-- FEATURED PRODUCTS-->
+    <h3>Featured Products</h3>
 
+    <div class="grid">
+
+        <div class="card">
+            <img src="images/cake.jpg" alt="Chocolate Cake">
+            <h3>Chocolate Cake</h3>
+            <p>Rich and delicious chocolate cake.</p>
+        </div>
+
+        <div class="card">
+            <img src="images/bread.jpg" alt="Fresh Bread">
+            <h3>Fresh Bread</h3>
+            <p>Baked daily for freshness.</p>
+        </div>
+
+        <div class="card">
+            <img src="images/pastry.jpg" alt="Pastries">
+            <h3>Pastries</h3>
+            <p>Flaky and tasty pastries.</p>
+        </div>
+
+    </div>
+
+<!-- FOOTER -->
 <footer>
     <p>&copy; 2026 Sweet Crumbs Bakery</p>
 </footer>
 
+<!-- JAVASCRIPT -->
 <script src="js/script.js"></script>
+
 </body>
 </html>
