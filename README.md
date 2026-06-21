@@ -230,14 +230,10 @@ v2.6 – 20 june 2026: Fixed sitemap.xml with missing 404.html and updated dates
 Responsiveness Testing and Iteration Across Devices
 These screenshots show how the site responds on common devices after iterative testing and adjustments
 Mobile
-
 <img width="1567" height="1295" alt="mobile" src="https://github.com/user-attachments/assets/764959f4-55c4-4efe-a268-505cdfb4309a" />
 Tablet
- <img width="1620" height="2977" alt="tablet (2)" src="https://github.com/user-attachments/assets/7c434a4b-838f-46c2-8580-6fceb5b42991" />
-
 <img width="1620" height="2977" alt="tablet (2)" src="https://github.com/user-attachments/assets/cf950c04-32fb-4feb-ba61-709511c76650" />
 Desktop
-<img width="3190" height="1785" alt="desktop" src="https://github.com/user-attachments/assets/7675d8a7-56f6-4d2d-b816-14d7be2a9cb3" />
 <img width="3190" height="1785" alt="desktop - Copy" src="https://github.com/user-attachments/assets/a3215407-1471-40f6-b2d9-dd72c79e88d8" />
 
 🚀 Deployment link
