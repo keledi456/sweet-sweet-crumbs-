@@ -1,7 +1,7 @@
 Changelog
 All notable changes to the Sweet-Sweet crumbs Website project are documented in this file.
 
-The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
+The format is based on Keep a Changelog,https://github.com/keledi456/sweet-sweet-crumbs-/ and this project adheres to Semantic Versioning.
 
 [2.6] - 2025-20-06
 Fixed
