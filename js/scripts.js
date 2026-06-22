@@ -1,97 +1,146 @@
-// ===============================
-// 🍔 MOBILE MENU TOGGLE
-// ===============================
-function toggleMenu() {
-    let menu = document.getElementById("navMenu");
-    menu.classList.toggle("active");
+==================
+   🌍 GENERAL STYLING
+========================= */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff5f7;
 }
 
+/* =========================
+   🔝 HEADER & NAVIGATION
+========================= */
+header {
+    background-color: rgba(255, 192, 215, 0.859);
+    padding: 20px;
+    text-align: center;
+}
 
-// ===============================
-// 📩 CONTACT FORM VALIDATION
-// ===============================
-function validateContactForm() {
-    let name = document.forms["contactForm"]["name"].value;
-    let email = document.forms["contactForm"]["email"].value;
-    let message = document.forms["contactForm"]["message"].value;
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 
-    if (name === "" || email === "" || message === "") {
-        alert("Please fill in all fields.");
-        return false;
+nav a:hover {
+    color: white;
+}
+
+/* =========================
+   📄 SECTIONS
+========================= */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* =========================
+   🖼️ IMAGES
+========================= */
+img {
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* =========================
+   🔲 LIGHTBOX (GALLERY)
+========================= */
+#lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+}
+
+#lightbox img {
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    width: 300px;
+}
+
+/* =========================
+   📩 FORMS (CONTACT + ENQUIRY)
+========================= */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 0 10px gray;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+textarea {
+    height: 80px;
+}
+
+/* =========================
+   🔘 BUTTONS
+========================= */
+button {
+    background-color: pink;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: hotpink;
+    color: white;
+}
+
+/* =========================
+   ✅ SUCCESS MESSAGES
+========================= */
+#response, 
+#enquiryResponse {
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+}
+
+/* =========================
+   🔻 FOOTER
+========================= */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: pink;
+    margin-top: 20px;
+}
+
+/* =========================
+   📱 RESPONSIVE DESIGN
+========================= */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
     }
 
-    if (!email.includes("@")) {
-        alert("Please enter a valid email address.");
-        return false;
+    img {
+        width: 90%;
     }
-
-    alert("Message sent successfully!");
-    return true;
-}
-
-
-// ===============================
-// 🧁 ENQUIRY FORM VALIDATION
-// ===============================
-
-// Enquiry form
-document.getElementById("enquiryForm")?.addEventListener("submit", function(e) {
-e.preventDefault();
-document.getElementById("response").innerText = "Enquiry submitted successfully!";
-});
-
-// Search function
-const search = document.getElementById("search");
-
-if (search) {
-search.addEventListener("keyup", function() {
-let filter = search.value.toLowerCase();
-let items = document.querySelectorAll("#productList li");
-
-items.forEach(item => {
-item.style.display = item.textContent.toLowerCase().includes(filter) ? "" : "none";
-});
-});
-}
-
-// ===============================
-// 🔍 PRODUCT SEARCH FUNCTION
-// ===============================
-function searchProducts() {
-    let input = document.getElementById("search").value.toLowerCase();
-    let cards = document.querySelectorAll(".card");
-
-    cards.forEach(card => {
-        let text = card.innerText.toLowerCase();
-        if (text.includes(input)) {
-            card.style.display = "block";
-        } else {
-            card.style.display = "none";
-        }
-    });
-}
-
-
-// ===============================
-// 🖼️ IMAGE LIGHTBOX (GALLERY)
-// ===============================
-document.addEventListener("DOMContentLoaded", function () {
-    let images = document.querySelectorAll(".gallery-img");
-    let lightbox = document.getElementById("lightbox");
-    let lightboxImg = document.getElementById("lightbox-img");
-
-    if (images.length > 0) {
-        images.forEach(img => {
-            img.addEventListener("click", () => {
-                lightbox.style.display = "flex";
-                lightboxImg.src = img.src;
-            });
-        });
-    }
-});
-
-// Close lightbox
-function closeLightbox() {
-    let lightbox = document.getElementById("lightbox");
-    lightbox.style.display = "none";
 }
