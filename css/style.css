@@ -1,150 +1,146 @@
-/* GENERAL */
+=========================
+   🌍 GENERAL STYLING
+========================= */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #fff8f0;
-    color: #333;
-}
-
-/* HEADER */
-header {
-    background-color: #8b4513;
-    color: white;
-    text-align: center;
-    padding: 15px;
-}
-
-/* NAVIGATION */
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
     padding: 0;
+    background-color: #fff5f7;
+}
+
+/* =========================
+   🔝 HEADER & NAVIGATION
+========================= */
+header {
+    background-color: rgba(255, 192, 215, 0.859);
+    padding: 20px;
+    text-align: center;
 }
 
 nav a {
-    color: white;
+    margin: 10px;
     text-decoration: none;
+    color: black;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #ffd700;
-}
-
-/* HERO */
-.hero {
-    text-align: center;
-    padding: 50px;
-    background-color: #ffe4c4;
-}
-
-.hero button {
-    background-color: #d2691e;
     color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
 }
 
-.hero button:hover {
-    background-color: #a0522d;
-}
-
-/* PRODUCTS */
-.product {
-    border: 1px solid #ccc;
-    margin: 10px;
-    padding: 15px;
-    border-radius: 8px;
-    background: white;
-}
-
-/* SEARCH */
-#search {
-    display: block;
-    width: 80%;
-    margin: 20px auto;
-    padding: 10px;
-}
-
-/* GALLERY */
-.gallery {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
+/* =========================
+   📄 SECTIONS
+========================= */
+section {
     padding: 20px;
+    text-align: center;
 }
 
-.gallery img {
-    width: 30%;
+/* =========================
+   🖼️ IMAGES
+========================= */
+img {
+    margin: 10px;
     border-radius: 10px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
-.gallery img:hover {
+img:hover {
     transform: scale(1.05);
 }
 
-/* LIGHTBOX */
+/* =========================
+   🔲 LIGHTBOX (GALLERY)
+========================= */
 #lightbox {
     display: none;
     position: fixed;
-    background: rgba(0,0,0,0.8);
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    justify-content: center;
-    align-items: center;
+    background: rgba(0,0,0,0.8);
 }
 
 #lightbox img {
-    max-width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    width: 300px;
 }
 
-/* FORMS */
+/* =========================
+   📩 FORMS (CONTACT + ENQUIRY)
+========================= */
 form {
-    display: flex;
-    flex-direction: column;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
     width: 300px;
     margin: auto;
+    box-shadow: 0 0 10px gray;
 }
 
 input, textarea {
-    margin: 5px;
-    padding: 10px;
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
 }
 
-/* BUTTON */
+textarea {
+    height: 80px;
+}
+
+/* =========================
+   🔘 BUTTONS
+========================= */
 button {
-    background: #d2691e;
-    color: white;
+    background-color: pink;
     border: none;
     padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
-/* FOOTER */
-footer {
-    background: #8b4513;
+button:hover {
+    background-color: hotpink;
     color: white;
+}
+
+/* =========================
+   ✅ SUCCESS MESSAGES
+========================= */
+#response, 
+#enquiryResponse {
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+}
+
+/* =========================
+   🔻 FOOTER
+========================= */
+footer {
     text-align: center;
     padding: 10px;
+    background-color: pink;
+    margin-top: 20px;
 }
 
-/* RESPONSIVE */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
+/* =========================
+   📱 RESPONSIVE DESIGN
+========================= */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
     }
 
-    .gallery {
-        flex-direction: column;
-    }
-
-    .gallery img {
+    img {
         width: 90%;
     }
 }
-
