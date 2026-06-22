@@ -238,6 +238,10 @@ Tablet
 Desktop
 <img width="3190" height="1785" alt="desktop - Copy" src="https://github.com/user-attachments/assets/a3215407-1471-40f6-b2d9-dd72c79e88d8" />
 
+socialmedia/
+![Uploading Screenshot 2026-06-22 133231.png…]()
+
+
 🚀 Deployment link
 ##The website is deployed using GitHub Page.
 -hhtps://keledi456.github.oi/sweet-sweet-crumbs
